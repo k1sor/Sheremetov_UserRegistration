@@ -391,13 +391,13 @@
       </DesignerInfoPropertySet>
     </Options>
     <Diagrams>
-      <Diagram DiagramId="10d0f0832a0342648a562286dc5009bd" Name="Diagram1">
-        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Authors" Width="1.5" PointX="1.5" PointY="7.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Books" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Issues" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Readers" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Roles" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Users" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+      <Diagram DiagramId="10d0f0832a0342648a562286dc5009bd" Name="Diagram1" ZoomLevel="125">
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Authors" Width="1.5" PointX="6.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Books" Width="1.5" PointX="5.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Issues" Width="1.5" PointX="7.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Readers" Width="1.5" PointX="5.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Roles" Width="1.5" PointX="8.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Users" Width="1.5" PointX="10.75" PointY="3.5" IsExpanded="true" />
         <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Books_Authors" ManuallyRouted="false" />
         <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Issues_Books" ManuallyRouted="false" />
         <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Issues_Readers" ManuallyRouted="false" />

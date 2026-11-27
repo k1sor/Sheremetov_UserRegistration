@@ -375,61 +375,35 @@
     </edmx:Mappings>
   </edmx:Runtime>
   <!-- EF Designer content (DO NOT EDIT MANUALLY) -->
-  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
-    <edmx:Connection>
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
       </DesignerInfoPropertySet>
-    </edmx:Connection>
-    <edmx:Options>
+    </Connection>
+    <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
         <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
-        <DesignerProperty Name="UseLegacyProvider" Value="false" />
       </DesignerInfoPropertySet>
-    </edmx:Options>
-    <edmx:Diagram>
-      <Diagram DiagramId="1" Name="LibraryModel" ZoomLevel="100">
-        <Shape ShapeId="Authors" ModelElementId="Authors" IsExpanded="true">
-          <Position X="40" Y="40" Width="200" Height="130" />
-        </Shape>
-        <Shape ShapeId="Books" ModelElementId="Books" IsExpanded="true">
-          <Position X="40" Y="220" Width="200" Height="160" />
-        </Shape>
-        <Shape ShapeId="Readers" ModelElementId="Readers" IsExpanded="true">
-          <Position X="40" Y="430" Width="200" Height="130" />
-        </Shape>
-        <Shape ShapeId="Issues" ModelElementId="Issues" IsExpanded="true">
-          <Position X="320" Y="220" Width="200" Height="160" />
-        </Shape>
-        <Shape ShapeId="Roles" ModelElementId="Roles" IsExpanded="true">
-          <Position X="640" Y="40" Width="200" Height="110" />
-        </Shape>
-        <Shape ShapeId="Users" ModelElementId="Users" IsExpanded="true">
-          <Position X="640" Y="220" Width="200" Height="180" />
-        </Shape>
-        <Connector ConnectorId="FK_Books_Authors" ModelElementId="FK_Books_Authors">
-          <ConnectorPoint X="140" Y="170" />
-          <ConnectorPoint X="140" Y="220" />
-        </Connector>
-        <Connector ConnectorId="FK_Issues_Books" ModelElementId="FK_Issues_Books">
-          <ConnectorPoint X="240" Y="280" />
-          <ConnectorPoint X="320" Y="280" />
-        </Connector>
-        <Connector ConnectorId="FK_Issues_Readers" ModelElementId="FK_Issues_Readers">
-          <ConnectorPoint X="240" Y="470" />
-          <ConnectorPoint X="350" Y="380" />
-        </Connector>
-        <Connector ConnectorId="FK_Users_Roles" ModelElementId="FK_Users_Roles">
-          <ConnectorPoint X="740" Y="150" />
-          <ConnectorPoint X="740" Y="220" />
-        </Connector>
-        <Connector ConnectorId="FK_Users_Readers" ModelElementId="FK_Users_Readers">
-          <ConnectorPoint X="240" Y="490" />
-          <ConnectorPoint X="640" Y="340" />
-        </Connector>
+    </Options>
+    <Diagrams>
+      <Diagram DiagramId="10d0f0832a0342648a562286dc5009bd" Name="Diagram1">
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Authors" Width="1.5" PointX="1.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Books" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Issues" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Readers" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Roles" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sheremetov_UserRegistration.Model.Users" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Books_Authors" ManuallyRouted="false" />
+        <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Issues_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Issues_Readers" ManuallyRouted="false" />
+        <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Users_Readers" ManuallyRouted="false" />
+        <AssociationConnector Association="Sheremetov_UserRegistration.Model.FK_Users_Roles" ManuallyRouted="false" />
       </Diagram>
-    </edmx:Diagram>
-  </edmx:Designer>
+    </Diagrams>
+  </Designer>
 </edmx:Edmx>

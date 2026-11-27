@@ -1,0 +1,7 @@
+* text=auto
+*.cs text diff=csharp
+*.config text
+*.csproj text
+*.sln text
+*.sql text
+*.md text

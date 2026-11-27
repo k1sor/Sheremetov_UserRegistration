@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheremetov_UserRegistration
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordHashing", "PasswordHashing\PasswordHashing.csproj", "{D4F9B2E3-8C5E-4B01-AD72-3F6A9E8C2B45}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{E1A2B3C4-D5E6-4F70-8123-456789ABCDEF}"
+	ProjectSection(SolutionItems) = preProject
+		Screenshots\Screenshot_1.png = Screenshots\Screenshot_1.png
+		Screenshots\Screenshot_2.png = Screenshots\Screenshot_2.png
+		Screenshots\Screenshot_3.png = Screenshots\Screenshot_3.png
+		Screenshots\Screenshot_4.png = Screenshots\Screenshot_4.png
+		Screenshots\Screenshot_5.png = Screenshots\Screenshot_5.png
+		Screenshots\Screenshot_6.png = Screenshots\Screenshot_6.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
